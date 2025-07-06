@@ -1,0 +1,11 @@
+chown www:www * -R
+chmod 655 * -R
+mkdir runtime
+chmod -R 777 runtime
+chmod -R 777 public/uploads
+chmod -R 777 application/extra/site.php
+chmod -R 777 application/config.php
+chmod -R 777 application/database.php
+#chmod u+w public/install.php
+chmod +x svn.sh
+sed -i 's/\r$//' ./svn.sh
