@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /www/wwwroot/api.amoa.cn
+cd /www/wwwroot/xim-nadmin
 while true
 do
   svn update --password lijiangkkk
